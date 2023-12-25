@@ -1,0 +1,138 @@
+body{
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: #d7dfe4;
+    position: relative;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#start{
+background-color: #1abc9c;
+}
+#stop{
+background-color: #3498db;
+}
+#reset{
+background-color: #e74c3c;
+}
+.name{
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#idname{
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+
+
+
+@media screen and (max-width: 820px){
+    .digit{
+        font-size: 100px;
+        font-weight: bold;
+    }
+
+    .text{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .digit{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .text{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn{
+        border-radius: 25px;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #time{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .digit{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .text{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #time{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #btn-container{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .btn{
+        width: 80px;
+        padding: 5px 5px;
+        font-size: 15px;
+        margin: 0px 5px;
+        color: white;
+        border: 0px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    /* .name{
+        position: absolute;
+        top: 0px;
+        margin-left: 25px;
+    } */
+    
+}
